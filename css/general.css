@@ -1,11 +1,16 @@
 @font-face {
-    font-family: garreg;
-    src: url(font/garreg.ttf);
+    font-family: "garreg";
+    src: url("garreg.ttf");
 }
 
 @font-face {
-    font-family: maven;
-    src: url(font/maven.ttf);
+    font-family: "maven";
+    src: url("maven.ttf");
+}
+
+@font-face {
+    font-family: "roman";
+    src: url("roman.ttf");
 }
 
 #headerVideo{
@@ -30,6 +35,7 @@ div .absolute{
     height: 20%;
     font-size: 400%;
     color: white;
+    font-family: "roman";
     
 }
 
@@ -37,6 +43,7 @@ div .nextAb{
     height: 20%;
     font-size: 200%;
     color:white;
+    font-family: "roman";
 
 }
 
@@ -57,16 +64,22 @@ div .nextAb{
 	font-size: 120%;
 }
 
+
 #body3{
 	padding-bottom: 5%;
 	padding-left: 0;
 	font-size: 120%;
 }
 
+.smText.mobileText,.bigText,{
+	font-family:"maven";
+}
+
+
 #subline{
 	font-size: 250%;
 	font-weight: bold;
-	font-family: maven;
+	font-family: "garreg";
 }
 
 .mobileHead{
@@ -141,7 +154,7 @@ div .nextAb{
 
 
 #body1,#body2,#body3{
-	font-family: garreg;
+	font-family: "garreg";
 }
 
 

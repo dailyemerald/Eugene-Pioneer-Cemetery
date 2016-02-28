@@ -1,12 +1,3 @@
-@font-face {
-    font-family: garreg;
-    src: url(font/garreg.ttf);
-}
-
-@font-face {
-    font-family: maven;
-    src: url(font/maven.ttf);
-}
 
 #mobileMap {
 	display: none;

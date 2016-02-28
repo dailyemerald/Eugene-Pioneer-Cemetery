@@ -1,3 +1,5 @@
+
+
 #map0,#map1,#map2,#map3,#map4,#map5,#map6,#map7{
 	width: 100%;
 	height: auto;
@@ -43,6 +45,11 @@ img#stillmap{ width: 100%;
 
 }
 
+#endPicture{
+	width:100%;
+	height: auto;
+}
+
 
 
 .list-group{
@@ -75,15 +82,7 @@ img#stillmap{ width: 100%;
 	color: White;
 }
 
-@font-face {
-    font-family: garreg;
-    src: url(font/garreg.ttf);
-}
 
-@font-face {
-    font-family: maven;
-    src: url(font/maven.ttf);
-}
 
 div #buttons{
 		position: absolute;
