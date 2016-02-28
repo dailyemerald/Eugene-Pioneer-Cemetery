@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "garreg";
-    src: url("garreg.ttf");
-}
+
 
 @font-face {
     font-family: "maven";
@@ -11,6 +8,10 @@
 @font-face {
     font-family: "roman";
     src: url("roman.ttf");
+}
+
+p{
+	font-family: Garamond;
 }
 
 #headerVideo{
@@ -71,8 +72,8 @@ div .nextAb{
 	font-size: 120%;
 }
 
-.smText.mobileText,.bigText,{
-	font-family:"maven";
+.smText.mobileText,.bigText,.mobileSubText{
+	font-family: Garamond ;
 }
 
 
@@ -85,7 +86,8 @@ div .nextAb{
 .mobileHead{
 	width: 35%;
 	float:right;
-	padding-left: 3%;
+	padding-left: 6%;
+
 }
 
 .mobileHead2{
@@ -98,12 +100,14 @@ div .nextAb{
 	width: 100%;
 }
 
-.mobileText{
-	font-size: 90%;
+.mobileText {
+    font-size: 71%;
+    font-style: italic;
 }
 
 .mobileSubText{
-	font-size:80%;
+	font-size: 71%;
+	font-style: italic;
 }
 
 #pictureRow{
@@ -191,10 +195,16 @@ div .picLeft{
 
 div .picRight{
 	width:50%;
-	display: table;
+	height: 100%;
 	padding-left: 4%;
-	vertical-align: center;
 	float:right;
+	position: relative;
+
+}
+
+div .allHeadText{
+	position: absolute;
+	top:50%;
 }
 
 div .text{
