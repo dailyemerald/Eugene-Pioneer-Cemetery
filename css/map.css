@@ -1,0 +1,131 @@
+#map0,#map1,#map2,#map3,#map4,#map5,#map6,#map7{
+	width: 100%;
+	height: auto;
+}
+
+#mobile0{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#mobile1,#mobile2,#mobile3,#mobile4,#mobile5,#mobile6{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+img#stillmap{ width: 100%;
+	height: auto; }
+
+.relative {
+	position:relative;
+}
+
+
+.mobileButtons{
+	position: absolute;
+	top:0;
+}
+.btn-group-justified{
+	width: 80% !important;
+	margin:0 auto;
+}
+
+.btn-group-justified button{
+	font-size: 60%;
+	border-radius: 0;
+	outline: 0;
+}
+
+.btn-group button:hover{
+	outline: 0;
+
+}
+
+
+
+.list-group{
+	position: absolute;
+	left:4%;
+	top: 15%;
+	width: 15%;
+	height: auto;
+
+}
+
+
+
+.list-group button{
+	outline: 0;
+	width: 100%;
+	height: auto;
+}
+
+.list-group button:hover{
+	outline: 0;
+	background-color: black;
+	color:white;
+}
+
+.list-group button:active 
+{ 
+	outline: 0;
+	background-color: SteelBlue; 
+	color: White;
+}
+
+@font-face {
+    font-family: garreg;
+    src: url(font/garreg.ttf);
+}
+
+@font-face {
+    font-family: maven;
+    src: url(font/maven.ttf);
+}
+
+div #buttons{
+		position: absolute;
+		width:35%;
+		right:3%;
+		z-index: 2;
+		text-align:right;
+}
+
+
+
+img#map0{
+	display: block;
+}
+
+img#map1{
+	display: none;
+}
+img#map2{
+	display: none;
+}
+img#map3{
+	display: none;
+}
+img#map4{
+	display: none;
+}
+img#map5{
+	display: none;
+}
+img#map6{
+	display: none;
+}
+img#map7{
+	display: none;
+}
+
+#warning
+{
+	display:none;
+}
+#stillmap
+{
+	display:none; 
+}

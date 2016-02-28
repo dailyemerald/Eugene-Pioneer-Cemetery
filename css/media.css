@@ -1,0 +1,174 @@
+@font-face {
+    font-family: garreg;
+    src: url(font/garreg.ttf);
+}
+
+@font-face {
+    font-family: maven;
+    src: url(font/maven.ttf);
+}
+
+#mobileMap {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	div .absolute {
+		font-size: 300%;
+	}
+	div .nextAb {
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.picture {
+		width: 60%;
+		text-align: center;
+		padding-bottom: 3%;
+	}
+	#wholemap {
+		display: none;
+	}
+	#mobileMap {
+		display: block;
+	}
+
+
+}
+
+@media screen and (max-width: 640px){
+
+
+	#subline{
+		font-size: 200%;
+	}
+	#center{
+		display: none;
+	}
+
+	div .picBox{
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+	.picLeft {
+		text-align: center;
+	}
+
+	.videoText{
+		position: relative;
+		right: 0;
+	}
+
+	div .text{
+	margin-top: 4%;
+}
+
+	div .picLeft{
+	width: 100%;
+}
+
+div .picRight{
+	width: 100%;
+	display: table;
+	padding-left: 4%;
+	vertical-align: center;
+	float:right;
+	text-align: center;
+}
+
+
+	div #buttons{
+		position: absolute;
+		width:40%;
+		top:0;
+		right:5%;
+		text-align: right;
+		z-index: 2;
+	}
+
+	#twitter{
+	width: 20px;
+	height: 20px;
+	}
+
+
+	#emerald{
+		width: 13px;
+		height:13px;
+	}
+
+
+	#facebook{
+		width: 15px;
+		height: 15px;
+	}
+
+	.container-fluid {
+		padding-top:2%;
+		text-align: center;
+	}
+
+	div .absolute{
+		margin-bottom: 0;
+		position: relative;
+		font-size: 150%;
+		text-align:center;
+		width:100%;
+		color:black;
+	}
+
+
+	div .nextAb{
+		position: relative;
+		font-size: 90%;
+		text-align:center;
+		width:100%;
+		color:black;
+	}
+
+	.list-group button{
+	width: 90%;
+	height: 35px;
+	position:relative;
+	font-size:30%;
+	text-align:=-webkit-auto;
+	}
+
+	#relative{
+		position:absolute;
+	}
+
+	.list-group button:hover{
+	background-color: black;
+	color:white;
+	}
+
+	.picture{
+	width: 70%;
+	height: auto;
+	text-align: center;
+	}
+
+}
+
+
+
+@media only screen and (orientation:portrait){
+
+
+        #warning
+        {
+        display:block;
+    	}
+        #stillmap{
+         display:block; 
+         padding-bottom: 5%;
+     	}
+
+     	div#wholemap{
+     		display: none;
+     	}
+ }
+
