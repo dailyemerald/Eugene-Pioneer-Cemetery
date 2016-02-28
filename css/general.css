@@ -166,13 +166,10 @@ div .nextAb{
     -webkit-filter: brightness(150%);
 }
 
-#emerald:hover {
-    -webkit-filter: brightness(150%);
+ul.share-buttons img:hover{
+  -webkit-filter: brightness(150%);
 }
 
-#facebook:hover {
-    -webkit-filter: brightness(150%);
-}
 
 
 
