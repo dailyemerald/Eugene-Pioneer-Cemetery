@@ -207,6 +207,7 @@ div .picLeft{
 	display: table-cell;
 	width:50%;
 	float:left;
+	text-align: center;
 }
 
 div .picRight{
@@ -224,7 +225,7 @@ div .allHeadText{
 }
 
 div .text{
-	margin-top: 50%;
+	margin-top: 40%;
 }
 
 div .bigText{
@@ -234,3 +235,9 @@ div .smText{
 	font-size: 100%;
 	
 }
+
+div .picLeft img{
+	width: 80%;
+}
+
+
