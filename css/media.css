@@ -70,31 +70,28 @@ div .picRight{
 }
 
 
-	div #buttons{
+	ul.share-buttons{
 		position: absolute;
-		width:40%;
+		width:60%;
 		top:0;
 		right:5%;
 		text-align: right;
 		z-index: 2;
 	}
 
-	#twitter{
-	width: 20px;
-	height: 20px;
+
+
+	ul.share-buttons img{
+		width: 14px;
+		height: 20px;
 	}
-
-
 	#emerald{
 		width: 13px;
 		height:13px;
 	}
 
 
-	#facebook{
-		width: 15px;
-		height: 15px;
-	}
+
 
 	.container-fluid {
 		padding-top:2%;

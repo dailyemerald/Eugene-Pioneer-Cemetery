@@ -7,11 +7,30 @@
 
 @font-face {
     font-family: "roman";
-    src: url("roman.ttf");
+    src: url("BodoniFLF-Roman.ttf");
 }
 
 p{
 	font-family: Garamond;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  width:60%;
+  padding-top: 2%;
+}
+
+ul.share-buttons li{
+  display: inline;
+  padding: 1%;
+  margin-top: 1%;
+}
+
+ul.share-buttons img{
+  width: 32px;
 }
 
 #headerVideo{
