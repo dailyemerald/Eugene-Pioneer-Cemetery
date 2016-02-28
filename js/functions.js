@@ -29,3 +29,4 @@ function changemap(number, length){
 	}
 
 }
+
