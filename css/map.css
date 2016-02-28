@@ -24,6 +24,11 @@ img#stillmap{ width: 100%;
 	position:relative;
 }
 
+#endPhoto{
+	width: 100%;
+	height: auto%;
+}
+
 
 .mobileButtons{
 	position: absolute;
