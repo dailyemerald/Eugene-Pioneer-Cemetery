@@ -100,6 +100,11 @@ div .nextAb{
 	font-size: 120%;
 }
 
+.gardenPicCaption {
+	padding-bottom: 7px;
+	font-size: 80%;
+}
+
 .smText.mobileText,.bigText,.mobileSubText{
 	font-family: Garamond ;
 }
@@ -228,6 +233,18 @@ div .picRight{
 
 }
 
+div #picLeftBob {
+	width: 50%;
+	float: left;
+}
+
+div #picRightBob {
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin-top: 15%;
+}
+
 div .allHeadText{
 	position: absolute;
 	top:50%;
@@ -249,11 +266,16 @@ div .picLeft img{
 	width: 80%;
 }
 
-
 #youtubeVid{
 	width: 100%;
 	height: auto;
 	margin-top: 30%;
+}
+
+@media screen and (max-width: 992px) {
+	#youtubeVid {
+		margin-top: 0%;
+	}
 }
 
 #credits{
