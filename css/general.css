@@ -250,9 +250,27 @@ div .picLeft img{
 }
 
 
+#youtubeVid{
+	width: 100%;
+	height: auto;
+	margin-top: 30%;
+}
+
 #credits{
 	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	font-family: Garamond;
 }
+
+#mobileInstructions{
+	position: relative;
+	font-size: 120%;
+	top:6%;
+}
+
+#instructions{
+	position: absolute;
+	font-size: 130%;
+	top:6%;
+	}
