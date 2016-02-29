@@ -30,6 +30,10 @@
 
 @media screen and (max-width: 640px){
 
+	#author{
+		width: 55%;
+	}
+
 
 	#subline{
 		font-size: 200%;

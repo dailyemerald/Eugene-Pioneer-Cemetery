@@ -38,6 +38,11 @@ ul.share-buttons img{
 	height: auto;
 }
 
+#mobileHeader{
+	width: 100%;
+	height:auto;
+}
+
 .container-fluid {
   padding: none;
   width: 100%;
@@ -68,8 +73,12 @@ div .nextAb{
 }
 
 #author{
-	font-size:200%;
-	padding-top: 10%;
+    font-size: 150%;
+    padding-top: 10%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    width: 44%
 }
 
 #body1,#body2,#body3{
@@ -241,3 +250,9 @@ div .picLeft img{
 }
 
 
+#credits{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: Garamond;
+}
