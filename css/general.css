@@ -245,6 +245,11 @@ div #picRightBob {
 	margin-top: 15%;
 }
 
+#bigTextBob {
+	font-family: Garamond;
+
+}
+
 div .allHeadText{
 	position: absolute;
 	top:50%;
